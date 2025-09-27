@@ -43,9 +43,6 @@ function createPostItem(entry, config) {
     link = link.replace("http://", "https://");
   }
 
-  // Force same domain
-  const siteDomain = window.location.hostname;
-  link = link.replace(/https?:\/\/[^/]+/, "https://" + siteDomain);
 
   const date = new Date(entry.published.$t);
   const comments = entry.thr$total ? entry.thr$total.$t + " Comments" : "Comments Disabled";
