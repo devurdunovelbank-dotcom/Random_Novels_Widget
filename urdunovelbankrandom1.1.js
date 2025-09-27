@@ -39,10 +39,13 @@ function createPostItem(entry, config) {
   let link = linkObj ? linkObj.href : "#";
 
   // Force https
-  if (link.startsWith("http://")) {
-    link = link.replace("http://", "https://");
-  }
+// Clean Blogger feed link
+if (link.startsWith("http://")) {
+  link = link.replace("http://", "https://");
+}
+link = link.split("#")[0]; // remove #gsc.tab=0 etc.
 
+  
 
   const date = new Date(entry.published.$t);
   const comments = entry.thr$total ? entry.thr$total.$t + " Comments" : "Comments Disabled";
