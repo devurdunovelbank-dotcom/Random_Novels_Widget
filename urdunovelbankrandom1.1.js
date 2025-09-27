@@ -65,11 +65,11 @@ function createPostItem(entry, config) {
 
   const li = document.createElement("li");
   li.innerHTML = `
-    <a href="${link}" target="_blank" title="${title}">
+    <a href="${link}" title="${title}">
       <img src="${config.noThumb}" data-src="${thumb}" alt="Thumbnail of ${title}" loading="lazy" class="lazy-thumb">
     </a>
     <div>
-      <a href="${link}" target="_blank" title="${title}">${title}</a>
+      <a href="${link}" title="${title}">${title}</a>
       ${config.details ? `<div class="random-info">${date.toLocaleDateString()} - ${comments}</div>` : ""}
       <div class="random-summary">${content}</div>
     </div>
