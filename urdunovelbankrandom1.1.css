@@ -19,7 +19,7 @@
 }
 
 .random-posts img {
-  border-radius: 5px;
+  border-radius: 8px;
   width: 100px;
   height: 100px;
   object-fit: cover;
@@ -34,7 +34,7 @@
 
 .random-posts a {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
+  font-size: 18px;
   font-weight: bold;
   text-transform: capitalize;
   color: #222;
@@ -53,7 +53,7 @@
   color: #555;
   margin-top: 3px;
   font-family: "Times New Roman", Times, serif;
-  line-height: 1.4;
+  line-height: 1.8;
 }
 
 .random-info {
