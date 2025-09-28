@@ -9,7 +9,7 @@
   display: flex;
   gap: 10px;
   margin-bottom: 14px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 2px solid #eee;
   padding-bottom: 10px;
   transition: transform 0.2s ease-in-out;
 }
@@ -19,9 +19,9 @@
 }
 
 .random-posts img {
-  border-radius: 10px;
-  width: 80px;
-  height: 80px;
+  border-radius: 5px;
+  width: 100px;
+  height: 100px;
   object-fit: cover;
   background-color: #f5f5f5;
   padding: 3px;
@@ -34,7 +34,7 @@
 
 .random-posts a {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: bold;
   text-transform: capitalize;
   color: #222;
@@ -49,7 +49,7 @@
 }
 
 .random-summary {
-  font-size: 12px;
+  font-size: 15px;
   color: #555;
   margin-top: 3px;
   font-family: "Times New Roman", Times, serif;
